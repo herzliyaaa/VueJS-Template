@@ -1,13 +1,13 @@
 <script setup>
 
-import HelloWorld from "@/components/HelloWorld.vue";
-import SideBarNav from "@/components/Sidebar/SideBarNav.vue";
+import { RouterView} from 'vue-router';
+
 </script>
 
 <template>
+<RouterView />
 
-<SideBarNav/>
-<TheWelcomeVue/>
+
 </template>
 
 <style>

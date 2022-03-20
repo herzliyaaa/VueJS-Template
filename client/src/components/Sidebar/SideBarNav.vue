@@ -3,18 +3,19 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <nav class="flex justify-end items-center bg-indigo-500 w-screen h-14">
-    <div class="flex p-2 text-md text-white font-bold ">
-      <RouterLink to="/">HOME</RouterLink>
+  <nav class="flex items-center justify-end w-screen bg-indigo-700 h-14">
+    <div class="flex p-2 font-bold text-white text-md ">
+      <RouterLink to="/home">HOME</RouterLink>
     </div>
-
-<div class="flex p-2 text-md text-white font-bold ">
-      <RouterLink to="/">LINK</RouterLink>
-    </div>
-
-    <div class="flex p-2 text-md text-white font-bold ">
+  <div class="flex p-2 font-bold text-white text-md">
       <RouterLink to="/about">ABOUT</RouterLink>
     </div>
+    
+<div class="flex p-2 font-bold text-white text-md ">
+      <RouterLink to="/">LOGOUT</RouterLink>
+    </div>
+
+  
   </nav>
 </template>
 

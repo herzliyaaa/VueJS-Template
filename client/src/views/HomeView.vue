@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from "@/components/TheWelcome.vue";
+import Card from "@/components/Card/Card.vue";
+import SideBarNav from "@/components/Sidebar/SideBarNav.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<SideBarNav/>
+<Card/>
 </template>
