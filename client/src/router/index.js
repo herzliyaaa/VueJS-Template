@@ -6,11 +6,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: "/",
       redirect: {
-          name: "login"
-      }
-  },
+        name: "login",
+      },
+    },
 
     {
       path: "/login",
@@ -31,6 +31,8 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
   ],
+
+  linkActiveClass: "nav-active-link",
 });
 
 export default router;
